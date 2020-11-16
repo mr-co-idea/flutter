@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>测试界面</title>
+</head>
+
+<body>
+	<button id="callFlutter">我来调用flutter方法</button>
+	<span id="callBack"></span>
+	<script>
+		const _button = document.getElementById('callFlutter');
+		_button.onclick = function () {
+
+		}
+
+		function callJS() {
+			const text = '我是js的测试回调信息';
+			return text;
+		}
+	</script>
+</body>
+
+</html>
